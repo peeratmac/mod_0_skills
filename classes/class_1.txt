@@ -1,0 +1,18 @@
+Class:  Classroom
+
+Attributes:
+
+capacity(integer)
+currentCapacity(integer)
+buildingName(string)
+isAccessible(boolean)
+department(string)
+departmentClassInSession(string)
+
+
+Methods:
+
+howManyMoreStudentsCanBeAdded() - subtracts currentCapacity from capacity to get the value
+calculatePercentFull() - currentCapacity / capacity * 100
+isThisClassBorrowingClassroom() - check department string if it matches with departmentClassInSession
+changeBuildingName() - change the name of the building to "xyz"
