@@ -1,0 +1,17 @@
+Object: Economy Class on 4th in McBryde Building
+
+Attributes:
+
+capacity(integer):  100
+currentCapacity(integer):  50
+buildingName(string):  "McBryde"
+isAccessible(boolean): true
+department(string): Mathematics
+departmentClassInSession(string):  Business
+
+
+Methods:
+howManyMoreStudentsCanBeAdded():  100 - 50 = 50
+calculatePercentFull() - 50 / 100 * 50 = 50%
+isThisClassBorrowingClassroom() - Mathematics != Business - return YES, it's borrowing a classroom from another department building
+changeBuildingName() - "Peterson"
