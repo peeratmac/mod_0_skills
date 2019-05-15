@@ -1,0 +1,17 @@
+Object:  Math Instructor
+
+Attributes:
+
+listOfInstructorsHereToday(array): ["Jamie L", "Sansa S", "Greyworm T"]
+countOfFullTimeInstructors(integer): 10
+totalNumberOfInstructors(integer): 100
+subjectTeach(string): "Mathematics"
+inClass(boolean): false
+numberOfInstructorAvailableToSubstitute(integer): 2
+
+Methods:
+
+percentageOfFullTime() - 10 / 100 * 100 = 10%
+canTeachMath() - YES (string matched)
+findOutIfHereToday("Greyworm T") - "YES"
+anyoneAvailable() - check that the numberOfInstructorAvailableToSubstitute is > 0 - "YES"
