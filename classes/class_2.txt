@@ -1,0 +1,17 @@
+Class:  Instructor
+
+Attributes:  
+
+listOfInstructorsHereToday(array)
+countOfFullTimeInstructors(integer)
+totalNumberOfInstructors(integer)
+subjectTeach(string)
+inClass(boolean)
+numberOfInstructorAvailableToSubstitute(integer)
+
+Methods:
+
+percentageOfFullTime() - countOfFullTimeInstructors / totalNumberOfInstructors * 100
+canTeachMath() - check subjectTeach string to see if matched with "Mathematics"
+findOutIfHereToday("John Smith") - look for "John Smith" in the array of listOfInstructorsHereToday, if true, return "YES"
+anyoneAvailable() - check that the numberOfInstructorAvailableToSubstitute is > 0, if true, return "YES"
