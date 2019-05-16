@@ -1,17 +1,18 @@
-Object:  Math Instructor
+Object:  2018 13" MacBook Pro (Space Gray)
 
 Attributes:
 
-listOfInstructorsHereToday(array): ["Jamie L", "Sansa S", "Greyworm T"]
-countOfFullTimeInstructors(integer): 10
-totalNumberOfInstructors(integer): 100
-subjectTeach(string): "Mathematics"
-inClass(boolean): false
-numberOfInstructorAvailableToSubstitute(integer): 2
+typeOfHardware(string):  "Notebook"
+driveCapacity(integer):  512
+spaceAvailable(integer):  400	
+batteryLevel(integer):  100
+operatingSystem(string):  "macOS"
+manufacturedYear(integer):  2018
+hasUsbThreePort(boolean):  true
 
 Methods:
 
-percentageOfFullTime() - 10 / 100 * 100 = 10%
-canTeachMath() - YES (string matched)
-findOutIfHereToday("Greyworm T") - "YES"
-anyoneAvailable() - check that the numberOfInstructorAvailableToSubstitute is > 0 - "YES"
+isPortable() - return "true" because "Notebook" string matches up.
+percentageOfSpaceAvailable() - 400 / 512 * 100 = 78
+checkIfXcodeCanBeInstalled() - return "true" because string matches up.
+ageOfComputer() - 2019 - 2018 = 1
