@@ -1,17 +1,18 @@
-Class:  Instructor
+Class:  Computer
 
 Attributes:  
 
-listOfInstructorsHereToday(array)
-countOfFullTimeInstructors(integer)
-totalNumberOfInstructors(integer)
-subjectTeach(string)
-inClass(boolean)
-numberOfInstructorAvailableToSubstitute(integer)
+typeOfHardware(string)
+driveCapacity(integer)
+spaceAvailable(integer)
+batteryLevel(integer)
+operatingSystem(string)
+manufacturedYear(integer)
+hasUsbThreePort(boolean)
 
 Methods:
 
-percentageOfFullTime() - countOfFullTimeInstructors / totalNumberOfInstructors * 100
-canTeachMath() - check subjectTeach string to see if matched with "Mathematics"
-findOutIfHereToday("John Smith") - look for "John Smith" in the array of listOfInstructorsHereToday, if true, return "YES"
-anyoneAvailable() - check that the numberOfInstructorAvailableToSubstitute is > 0, if true, return "YES"
+isPortable() - check the string input for "laptop", "notebook", "tablet" to return "true" and if it's "desktop" to return false.
+percentageOfSpaceAvailable() - spaceAvailable / driveCapacity * 100
+checkIfXcodeCanBeInstalled() - return "true" if operatingSystem = "macOS"
+ageOfComputer() - subtract manufacturedYear from current year
